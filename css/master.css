@@ -4,9 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.cx-nav-footer {
-  padding: 0 450px;
-}
+
 /* regole selettive */
 /* regole nav */
 nav {
@@ -18,7 +16,13 @@ nav {
   top: 0;
   z-index: 900;
 }
-
+nav ul li, nav ul li div {
+  display: inline-block;
+  margin-left: 10px;
+}
+nav .row div:last-child {
+  text-align: right;
+}
 /* regole header */
 header {
   margin-top: 120px;
