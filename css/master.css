@@ -24,9 +24,13 @@ header {
   margin-top: 120px;
 }
 
+/* regole footer */
+footer {
+  background-color: black;
+}
 /* debug */
 .row {
-  background-color: gray;
+  /* background-color: gray; */
   min-height: 100px;
   margin-bottom: 70px;
 }
