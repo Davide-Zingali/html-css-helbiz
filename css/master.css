@@ -16,6 +16,14 @@ a {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+.bottone {
+  background-color: black;
+  border-radius: 5px;
+  padding: 15px;
+  display: inline-block;
+  width: 170px;
+  color: white;
+}
 /* regole selettive */
 /* regole nav */
 nav {
@@ -44,8 +52,12 @@ header {
   background-image: url(../img/helbiz-go-bg.f81ab10.jpg);
   background-size: cover;
   min-height: 650px;
+  color: white;
+  text-align: center;
 }
-
+.posi {
+  position: relative;
+}
 /* regole main */
 /* prima sezione */
 main section:first-child img {
@@ -71,6 +83,7 @@ main > section:first-child .row {
 .bike {
   margin: 0 80px 0 12px;
 }
+
 /* seconda sezione */
 /* box intero su */
 .sfondo-senior {
@@ -96,18 +109,66 @@ main > section:first-child .row {
 .frame-iphone img {
   width: 100%;
 }
+
+/* terza sezione */
+/* box intero su */
+.sfondo-panchine {
+  background-image: url(../img/scooter.f0a0397.jpg);
+  background-size: cover;
+  min-height: 550px;
+  margin: 0 60px;
+  color: white;
+}
+
+/* box giù */
+.sfondo-blu {
+  margin: 40px 20px 40px 60px;
+  background-color: #344454;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  min-height: 500px;
+}
+.città1 {
+  background-image: url(../img/city.7c8c928.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  margin: 40px 60px 40px 20px;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+.link3 {
+  margin: 12px 0 0 0;
+  color: white;
+}
+
+/* quarta sezione */
+.sfondo-multi-foto {
+  background-image: url(../img/multi-photo.jpg);
+  background-size: cover;
+  min-height: 480px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.sfondo-multi-bianco {
+  background-color: white;
+  padding: 40px 60px;
+}
 /* regole footer */
 footer {
   background-color: black;
+  min-height: 600px;
 }
 /* debug */
 .row {
   /* background-color: gray; */
-  min-height: 100px;
+  /* min-height: 100px; */
   /* margin-bottom: 70px; */
 }
 [class*="col-"] {
   /* background-color: lightblue; */
-  min-height: 90px;
+  /* min-height: 90px; */
   border: 1px solid black;
 }
