@@ -23,6 +23,9 @@ a {
   display: inline-block;
   width: 170px;
   color: white;
+  /* debug */
+  border: 1px solid white;
+  text-align: center;
 }
 /* regole selettive */
 /* regole nav */
@@ -160,6 +163,18 @@ main > section:first-child .row {
 footer {
   background-color: black;
   min-height: 600px;
+  color: white;
+}
+footer hr {
+  /* padding: 50px 0; */
+  border-color: gray;
+}
+.bottone-footer {
+  text-align: center;
+}
+.box-hr {
+  min-height: 100px;
+  line-height: 100px;
 }
 /* debug */
 .row {
@@ -170,5 +185,5 @@ footer {
 [class*="col-"] {
   /* background-color: lightblue; */
   /* min-height: 90px; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }

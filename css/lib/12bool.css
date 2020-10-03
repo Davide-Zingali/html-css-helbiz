@@ -7,7 +7,7 @@
 .container-full-width {
   width: 100%;
 }
-[class*="row"]:after {
+.row:after {
   content: "";
   display: table;
   clear: both;
