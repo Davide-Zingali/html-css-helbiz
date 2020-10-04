@@ -135,7 +135,7 @@ main > section:first-child .row {
   text-align: center;
 }
 .sfondo-panchine a {
-  color: gray;
+  color: #5070C8;
 }
 /* box giù */
 .sfondo-blu {
@@ -254,7 +254,6 @@ footer .row > div > div:last-child {
   /* prima sezione */
   main section:first-child img {
     max-height: 310px;
-    padding-left: 50px;
   }
   .scooter, .bike {
     line-height: 23px;
@@ -265,9 +264,11 @@ footer .row > div > div:last-child {
   main section:nth-child(2) .row div:last-child .centratura {
     transform: translate(-35%, -50%);
   }
+  main section:nth-child(2) .row div:nth-child(2) .centratura {
+    transform: translate(-60%, -50%);
+  }
   .x-iphone {
     height: 300px;
-    /* font-size: 10px; */
   }
 
   /* terza sezione */
@@ -312,7 +313,6 @@ footer .row > div > div:last-child {
   }
 
 /* main */
-
 /* prima sezione */
 .scooter, .bike {
   margin: 0 auto;
@@ -361,15 +361,4 @@ main section:first-child img {
     min-height: 35px;
     line-height: 35px;
   }
-}
-/* debug */
-.row {
-  /* background-color: gray; */
-  /* min-height: 100px; */
-  /* margin-bottom: 70px; */
-}
-[class*="col-"] {
-  /* background-color: lightblue; */
-  /* min-height: 90px; */
-  /* border: 1px solid black; */
 }
