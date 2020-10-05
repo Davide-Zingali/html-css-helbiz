@@ -324,6 +324,17 @@ main section:first-child img {
   max-height: 400px;
 }
 
+/* seconda sezione */
+.fix {
+  padding-top: 360px;
+}
+.fix .centratura {
+  top: 85%;
+}
+.x-iphone {
+  height: 100px;
+}
+
 /* terza sezione */
 .sfondo-panchine > div {
   left: 50%;
